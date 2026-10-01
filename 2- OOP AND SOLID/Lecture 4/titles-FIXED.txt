@@ -1,0 +1,184 @@
+﻿  1. SIMULATION | Software House & Academy
+  2. 01 | PART 01
+  3. DEFINITION | What Is "Polymorphism"?
+  4. THE HOOK | One Name, Many Behaviors
+  5. COMPILE-TIME | What Is Compile-Time Polymorphism?
+  6. OVERLOADING | Method Overloading — Many Signatures
+  7. HOW IT WORKS | How the Compiler Picks the Overload
+  8. OPERATOR | Operator Overloading — Money + Money
+  9. OPERATOR | Money + Money — Using It
+ 10. HOW IT WORKS | Behind the Scenes — + Is a Method Call
+ 11. SUMMARY | Why It Is Polymorphism — and How It Works
+ 12. NEXT | But What If the Compiler Can't Know?
+ 13. RUNTIME | One Reference, Different Objects
+ 14. TWO TYPES | Two Types on One Line
+ 15. ACCESS | What Can I Access?
+ 16. THE RULE | Two Questions, Two Answers
+ 17. UPCASTING | Upcasting — Child → Parent
+ 18. UPCASTING | Upcasting Does NOT Change the Object
+ 19. HIDING | Method Hiding — Before virtual
+ 20. HIDING | Same Object, Different Result
+ 21. BINDING | Static Binding — The Reference Decides
+ 22. VIRTUAL | Add virtual + override
+ 23. THE MATRIX | The Matrix — Who Decides?
+ 24. COMPARE | Hiding vs Overriding — Side by Side
+ 25. KEY TRICK | One Object, Two References
+ 26. VTABLE | Conceptual Model: Virtual Slots
+ 27. VTABLE | How the Call Reaches Developer.Work()
+ 28. HIDING | Why new Doesn't Replace the Slot
+ 29. GRANDCHILD | Test: Add a Grandchild
+ 30. DOWNCAST | Downcasting — Parent → Child
+ 31. DANGER | Why Downcasting Is Dangerous
+ 32. PATTERN MATCHING | Prefer is + Pattern Matching
+ 33. AS | The as Operator — Three Ways to Cast
+ 34. TYPE CHECKS | is vs GetType()
+ 35. TYPE CHECKS | is vs GetType() — With a Grandchild
+ 36. RECAP | Recap: Compile-Time vs Runtime
+ 37. THE MAP | The Polymorphism Map
+ 38. WHY IT MATTERS | Why We Need Polymorphism
+ 39. THE POINT | One Code Path, Many Forms
+ 40. REAL WORLD | Real World — Notifications Without Polymorphism
+ 41. REAL WORLD | One Contract, Many Channels
+ 42. REAL WORLD | One Loop, Any Channel
+ 43. WHY IT MATTERS | A New Channel Tomorrow — Zero Edits
+ 44. 02 | PART 02
+ 45. START HERE | When Should B Inherit from A?
+ 46. THE SYMPTOMS | Problems When "Is-A" Is All We Check
+ 47. DEFINITION | The Liskov Substitution Principle
+ 48. VIOLATION 1 | Violation 1: Rectangle and Square
+ 49. VIOLATION 1 | The Client Breaks
+ 50. VIOLATION 2 | Violation 2: The Bird That Can't Fly
+ 51. DISCUSSION | The Crash — and the Wrong Fix
+ 52. THE CONTRACT | The Contract Behind LSP
+ 53. RULE 1 | Rule 1: Don't Strengthen Preconditions
+ 54. RULE 2 | Rule 2: Don't Weaken Postconditions
+ 55. RULE 3 | Rule 3: Preserve the Invariants
+ 56. RULE 4 | Rule 4: No New Exceptions
+ 57. THE FIX | How to Fix LSP Violations
+ 58. THE FIX | Fix: Rectangle and Square
+ 59. THE FIX | Fix: The Bird That Can't Fly
+ 60. SUMMARY | LSP in One Slide
+ 61. 03 | PART 03
+ 62. THE COSTS | Is Correct Inheritance Always Safe?
+ 63. DEFINITION | Composition over Inheritance
+ 64. HAS-A | Car Has an Engine
+ 65. DEMO 1 | Demo 1: The Fragile Base Class
+ 66. DEMO 1 | Expected 3 — Actual 6
+ 67. THE FIX | The Fix: Composition, No Interfaces
+ 68. DEMO 2 | Demo 2: Class Explosion
+ 69. THE FIX | The Fix: One Small Class per Job
+ 70. THE FIX | Notifier: Hold the Parts
+ 71. THE FIX | Choose the Combination at Creation
+ 72. TRADE-OFF | The Honest Trade-Off
+ 73. SUMMARY | Composition Answers Every Cost
+ 74. 04 | PART 04
+ 75. SEALED CLASS | Sealing a Class
+ 76. WHY SEAL | Why Seal a Class?
+ 77. .NET EXAMPLE | string Is Sealed
+ 78. THE RULE | Design for Inheritance — or Prevent It
+ 79. SEALED METHOD | Sealing a Method
+ 80. SEALED METHOD | Nobody Below Can Override
+ 81. 05 | PART 05
+ 82. WHAT | What Is Abstraction?
+ 83. EXAMPLE | Abstraction in Code — IPayment · Vodafone · InstaPay
+ 84. WHY | Why Abstraction? — Seven Reasons
+ 85. WHY 1 | 1 — Managing Complexity
+ 86. WHY 2 | 2 — Enable Reuse
+ 87. WHY 3 | 3 — Protection from Change
+ 88. WHY 4 | 4 — Enable Teamwork
+ 89. WHY 5 | 5 — Enable Testing
+ 90. WHY 6 | 6 — Reduce Coupling
+ 91. WHY 7 | 7 — Overcome Single Inheritance
+ 92. VS | Abstraction vs Encapsulation
+ 93. 06 | PART 06
+ 94. WHAT | What Is an Abstract Class?
+ 95. RULES | Abstract Class Rules — Overview
+ 96. NO NEW | Rule — Cannot Instantiate Abstract Class
+ 97. ABSTRACT | Abstract Methods — Must Override
+ 98. CONCRETE | Implemented Methods — Shared in Base
+ 99. VIRTUAL | Virtual Methods — Optional Override
+100. STATIC | Static Members on Abstract Class
+101. PROPS | Abstract Properties
+102. CTOR | Constructor in Abstract Class
+103. TEMPLATE | Template Method — PaymentProcessor
+104. PATTERN | Template Method — Production Value
+105. WHEN | When to Use Abstract Class
+106. 07 | PART 07
+107. WHAT | What Is an Interface?
+108. ANSWER | Swap Implementations Without Rewriting Callers
+109. CONTRACT | Interface = Public Contract
+110. RULES | Interface Rules in C#
+111. MEMBERS | Interface Members — Overview
+112. MEMBERS | Typical Interface Members
+113. DEFAULT | Default Interface Methods (C# 8+)
+114. DEFAULT | Default Method — Use Sparingly
+115. EXPLICIT | Explicit Interface Implementation
+116. EXPLICIT | Explicit Implementation — Collision Fix
+117. MULTI | Multiple Interface Implementation
+118. MULTI | VodafoneCash — Three Contracts
+119. ISP | SOLID — Interface Segregation Principle (ISP)
+120. ISP | Fat Interface vs Segregated Interfaces
+121. ISP | Lion Does Not Fly — Segregate
+122. 08 | PART 08
+123. TABLE | Side-by-Side — Quick Reference
+124. GUIDE | Decision Guide — Which One?
+125. PRODUCTION | Real Example — Printing (IPrintable)
+126. PRINT | DocumentService — No switch on Type
+127. PRODUCTION | Real Example — Payments (IPaymentMethod)
+128. PAYMENT | Cashier — Polymorphism Without switch
+129. MODEL | Correct Modeling — IS-A + CAN-DO Together
+130. MODEL | MobileWallet (IS-A) + IPayment (CAN-DO)
+131. 09 | PART 09
+132. DEFINITION | What Is OCP?
+133. BAD | Anti-Pattern — switch on paymentType
+134. GOOD | OCP Fix — Strategy Pattern via Abstractions
+135. STRATEGY | Strategy — IPayment + Injected Implementation
+136. BILLING | IStayPricing Strategy — Same OCP Seam
+137. BENEFITS | OCP Benefits — Production Payoff
+138. 10 | PART 10
+139. DEFINITION | What Is DIP?
+140. WHY | Why DIP — Loose Coupling & Testability
+141. BAD | Anti-Pattern — new VodafoneCash() in Checkout
+142. GOOD | DIP — Checkout Depends on Abstraction
+143. DIAGRAM | DIP — Dependency Direction
+144. TEST | FakePayment — DIP Makes Testing Trivial
+145. DI | Composition Root — ASP.NET Core DI
+146. TOGETHER | OCP + DIP — Two Sides of the Same Seam
+147. DOCS | Official Documentation
+148. SIMULATION | Software House & Academy
+149. 01 | PART 01
+150. THE SETUP | One Abstraction, Many Channels
+151. THE PROBLEM | The Problem: new Everywhere
+152. DEFINITION | Simple Factory
+153. THE CODE | Simple Factory — The Code
+154. IN USE | Using the Factory
+155. TRADE-OFF | What It Improved — and Its Limits
+156. 02 | PART 02
+157. DEFINITION | Factory Method
+158. THE CODE | Factory Method — The Base Class
+159. THE CODE | The Subclasses Decide
+160. IN USE | Using Factory Method
+161. HOW IT WORKS | How It Works — Polymorphism
+162. COMPARE | Simple Factory vs Factory Method
+163. GUIDE | When to Use a Factory
+164. SUMMARY | Factory in One Slide
+165. 11 | PART 11
+166. WHY | Why Extension Methods Exist
+167. BEFORE | The Problem Before Extensions
+168. SYNTAX | Syntax & Requirements
+169. STRING | Example — String Extensions
+170. DATETIME | Example — DateTime Helpers
+171. LINQ | Where — Extension on IEnumerable<T>
+172. RESOLUTION | Extension Method Resolution
+173. PRIORITY | Priority — Instance Method Wins
+174. INTERFACE | Extension Methods on Interfaces
+175. DI EXT | IServiceCollection — ASP.NET Core Pattern
+176. CHAIN | Chaining Extension Methods
+177. CHAIN | Fluent Registration Chain
+178. SHADOW | Shadowing Warning — Declared Type, Not Runtime
+179. SHADOW | Extension on Animal vs Dog — Declared Type Wins
+180. C# 14 | New Extension Members — .NET 10 / C# 14
+181. C# 14 | extension Block Syntax Overview
+182. STARTER | Exercise Starter — Order.cs
+183. SOLUTION | Exercise Review — OrderExtensions
+

@@ -1,0 +1,12 @@
+﻿<Solution>
+  <Project Path="01-Properties/01-Properties.csproj" />
+  <Project Path="02-Order-Practice/02-Order-Practice.csproj" />
+  <Project Path="04-Builder/04-Builder.csproj" />
+  <Project Path="05-Structs/05-Structs.csproj" />
+  <Project Path="06-Object-Class/06-Object-Class.csproj" />
+  <Project Path="07-Equals-GetHashCode/07-Equals-GetHashCode.csproj" />
+  <Project Path="08-IComparable/08-IComparable.csproj" />
+  <Project Path="09-Records/09-Records.csproj" />
+  <Project Path="10-Indexers/10-Indexers.csproj" />
+  <Project Path="11-DRY-KISS-YAGNI/11-DRY-KISS-YAGNI.csproj" />
+</Solution>

@@ -1,0 +1,211 @@
+﻿  1. SIMULATION | Software House &amp; Academy
+  2. AGENDA | Today&apos;s Agenda — Full Lecture
+  3. OUTCOMES | By the End of This Lecture
+  4. RECAP | Recap — Lecture 03
+  5. BRIDGE | From Inheritance to Abstraction
+  6. 01 | PART 01
+  7. WHAT | What Is Abstraction?
+  8. WHY | Why We Need Abstraction
+  9. REAL WORLD | Real World — Toaster &amp; Power Socket
+ 10. PRODUCTION | Real World — Cashier Calls Pay()
+ 11. PUBLIC API | Public Pay() — Hide Gateway Steps
+ 12. HIDE | Hiding Implementation Details
+ 13. VS | Abstraction vs Encapsulation
+ 14. TOGETHER | Both in One Type — BankAccount
+ 15. NOTES · TIPS · CARE | Abstraction — Notes · Tips · Take Cares
+ 16. CHECKPOINT | Checkpoint — Think Before Reveal
+ 17. ANSWER | IFileStorage — Stable Contract
+ 18. 02 | PART 02
+ 19. WHAT | What Is an Abstract Class?
+ 20. RULES | Abstract Class Rules — Overview
+ 21. NO NEW | Rule — Cannot Instantiate Abstract Class
+ 22. ABSTRACT | Abstract Methods — Must Override
+ 23. CONCRETE | Implemented Methods — Shared in Base
+ 24. VIRTUAL | Virtual Methods — Optional Override
+ 25. STATIC | Static Members on Abstract Class
+ 26. PROPS | Abstract Properties
+ 27. CTOR | Constructor in Abstract Class
+ 28. TEMPLATE | Template Method — PaymentProcessor
+ 29. PATTERN | Template Method — Production Value
+ 30. WHEN | When to Use Abstract Class
+ 31. NOTES · TIPS · CARE | Abstract Class — Notes · Tips · Take Cares
+ 32. EXERCISE | Mini Exercise — Complete Shape.Area
+ 33. STARTER | Your Starting Code
+ 34. SOLUTION | Review — Shape Exercise Solution
+ 35. NEXT | Part A Complete — Up Next
+ 36. 03 | PART 03
+ 37. WHAT | What Is an Interface?
+ 38. ANSWER | Swap Implementations Without Rewriting Callers
+ 39. CONTRACT | Interface = Public Contract
+ 40. RULES | Interface Rules in C#
+ 41. MEMBERS | Interface Members — Overview
+ 42. MEMBERS | Typical Interface Members
+ 43. DEFAULT | Default Interface Methods (C# 8+)
+ 44. DEFAULT | Default Method — Use Sparingly
+ 45. EXPLICIT | Explicit Interface Implementation
+ 46. EXPLICIT | Explicit Implementation — Collision Fix
+ 47. MULTI | Multiple Interface Implementation
+ 48. MULTI | VodafoneCash — Three Contracts
+ 49. ISP | SOLID — Interface Segregation Principle (ISP)
+ 50. ISP | Fat Interface vs Segregated Interfaces
+ 51. ISP | Lion Does Not Fly — Segregate
+ 52. NOTES · TIPS · CARE | Interface — Notes · Tips · Take Cares
+ 53. CHECKPOINT | Checkpoint — Design Three Interfaces
+ 54. REVIEW | Checkpoint Review — Suggested Shape
+ 55. 04 | PART 04
+ 56. COMPARE | Abstract Class vs Interface
+ 57. TABLE | Side-by-Side — Quick Reference
+ 58. GUIDE | Decision Guide — Which One?
+ 59. PRODUCTION | Real Example — Printing (IPrintable)
+ 60. PRINT | DocumentService — No switch on Type
+ 61. PRODUCTION | Real Example — Payments (IPaymentMethod)
+ 62. PAYMENT | Cashier — Polymorphism Without switch
+ 63. MODEL | Correct Modeling — IS-A + CAN-DO Together
+ 64. MODEL | MobileWallet (IS-A) + IPayment (CAN-DO)
+ 65. NOTES · TIPS · CARE | Abstract vs Interface — Common Mistakes
+ 66. DO / DON&apos;T | Abstract vs Interface — Do / Don&apos;t
+ 67. DOCS | Official Documentation
+ 68. 05 | PART 05
+ 69. DEFINITION | What Is Polymorphism?
+ 70. WHY | Why Polymorphism Matters
+ 71. TYPES | Two Families — When Is the Form Chosen?
+ 72. TREE | Polymorphism — Type Tree
+ 73. ANSWER | Quick Check — WriteLine
+ 74. NOTES · TIPS · CARE | Polymorphism — Notes · Tips · Take Cares
+ 75. 06 | PART 06
+ 76. OVERLOAD | Method Overloading — Same Name, Different Signatures
+ 77. RULES | Overloading Rules — What Counts as &quot;Different&quot;?
+ 78. INVALID | Return Type Alone — Illegal Overload
+ 79. ADD | Add Overloads — Count &amp; Type
+ 80. BCL | Console.WriteLine Style — Framework Overloads
+ 81. OPTIONAL | Optional Parameters &amp; Named Arguments
+ 82. NAMED | Optional + Named — Overload Interaction
+ 83. SMELL | When Overloads Get Bad
+ 84. REFACTOR | Better Than 12 Overloads
+ 85. OPTIONS | Parameter Object — Production Pattern
+ 86. EXERCISE | Mini Exercise — Which Overload?
+ 87. SOLUTION | Mini Exercise — Answers
+ 88. NOTES · TIPS · CARE | Compile-Time Polymorphism — Notes · Tips · Take Cares
+ 89. 07 | PART 07
+ 90. WHAT | What Is Operator Overloading?
+ 91. SUPPORTED | Supported Operators — Overview
+ 92. RULES | Operator Overloading Rules
+ 93. DO / DON&apos;T | Operator Overloading — Best Practices
+ 94. MONEY | Money — operator + with Currency Guard
+ 95. EQUALS | Pair == with Equals &amp; GetHashCode
+ 96. CHECKPOINT | Checkpoint — Operator Overloading
+ 97. CHECKPOINT | Checkpoint — Answers
+ 98. NOTES · TIPS · CARE | Operator Overloading — Notes · Tips · Take Cares
+ 99. 08 | PART 08
+100. BRIDGE | From Compile-Time to Runtime
+101. DEFINITION | Dynamic Dispatch — Late Binding
+102. WHY | Why Runtime Polymorphism Matters
+103. KEYWORDS | virtual · override · sealed override · base
+104. VIRTUAL | virtual + override — Classic Pattern
+105. BASE | base — Extend Parent Behavior
+106. SEALED | sealed override — Close the Chain
+107. REQUIREMENTS | Three Requirements for Runtime Override
+108. DISPATCH | Requirement #3 — Reference Type vs Runtime Type
+109. VTABLE | Method Dispatch — VTable (Accessible Overview)
+110. FLOW | Virtual Call — What Happens at Runtime
+111. override vs new | override vs new — Static vs Dynamic Dispatch
+112. NEW HIDE | new Hiding — Declared Type Wins
+113. MIXED | virtual + new + override — Quiz Setup
+114. CHECKPOINT | Checkpoint — virtual · new · override
+115. ANSWER | Checkpoint — Answers
+116. DO / DON&apos;T | override vs new — Best Practice
+117. ABSTRACT | Abstract Polymorphism
+118. ABSTRACT | Abstract Method — Forced Override
+119. INTERFACE | Interface Polymorphism
+120. DI | DI-Style Injection — OrderService + INotifier
+121. UPCAST | Upcasting — Safe &amp; Implicit
+122. UPCAST | Implicit Upcast — List&lt;Animal&gt;
+123. DOWNCAST | Downcasting — Risky
+124. TYPE TEST | is · as · Pattern Matching
+125. PATTERN | Pattern Matching — Safe Downcast
+126. COLLECTIONS | Polymorphic Collections
+127. LIST | List&lt;Animal&gt; — One Loop, Many Behaviors
+128. PRODUCTION | Real World — Payment Polymorphism
+129. PAYMENT | Payment — Runtime Gateway Selection
+130. PRODUCTION | Real World — Notification Polymorphism
+131. NOTIFY | Notification — Email vs WhatsApp at Runtime
+132. CHECKPOINT | Checkpoint — Payment &amp; Dispatch
+133. ANSWER | Checkpoint — Answers
+134. CTOR TRAP | Virtual from Constructor — Don&apos;t
+135. NOTES · TIPS · CARE | Runtime Polymorphism — Notes · Tips · Take Cares
+136. 09 | PART 09
+137. DEFINITION | What Is OCP?
+138. WHY | Why OCP Exists — The Problem It Solves
+139. BAD | Violating OCP — switch on Payment Type
+140. BAD | Anti-Pattern — switch on paymentType
+141. GOOD | OCP Fix — Strategy Pattern via Abstractions
+142. STRATEGY | Strategy — IPayment + Injected Implementation
+143. DISCOUNT | IDiscount Strategy — Same OCP Seam
+144. BENEFITS | OCP Benefits — Production Payoff
+145. REAL WORLD | Real World — Discounts &amp; Payments
+146. NOTES · TIPS · CARE | OCP — Notes · Tips · Take Cares
+147. CHECKPOINT | Checkpoint — OCP Design
+148. REVIEW | Checkpoint Review — OCP Answer
+149. 10 | PART 10
+150. DEFINITION | What Is DIP?
+151. WHY | Why DIP — Loose Coupling &amp; Testability
+152. BAD | Violating DIP — Checkout Hardcodes Concretions
+153. BAD | Anti-Pattern — new VodafoneCash() in Checkout
+154. GOOD | DIP — Checkout Depends on Abstraction
+155. DIAGRAM | DIP — Dependency Direction
+156. TEST | FakePayment — DIP Makes Testing Trivial
+157. DI | Composition Root — ASP.NET Core DI
+158. NOTES · TIPS · CARE | DIP — Notes · Tips · Take Cares
+159. DO / DON&apos;T | DIP — Do / Don&apos;t
+160. TOGETHER | OCP + DIP — Two Sides of the Same Seam
+161. DOCS | Official Documentation
+162. 11 | PART 11
+163. OVERVIEW | Why Class Modifiers Exist
+164. STATIC CLASS | Static Class — What &amp; Why
+165. STATIC CLASS | Static Class — Cannot new or Derive
+166. ABSTRACT | Abstract Class — Brief Recap
+167. SEALED | Sealed Class — Recap from Lecture 03
+168. SEALED | Sealed Class — Closed Hierarchy
+169. PARTIAL | Partial Class — Why It Exists
+170. PARTIAL | Partial Class — Two Files, One Type
+171. NESTED | Nested Class — Why Use It
+172. NESTED | Nested Class — Access Outer Private Members
+173. COMPARE | Class Type Modifiers — Quick Compare
+174. COMPARE | Compare Cards — At a Glance
+175. NOTES · TIPS · CARE | Class Types — Notes · Tips · Take Cares
+176. 12 | PART 12
+177. WHY | Why Extension Methods Exist
+178. BEFORE | The Problem Before Extensions
+179. SYNTAX | Syntax &amp; Requirements
+180. SYNTAX | Classic Extension Method — Three Requirements
+181. STRING | Example — String Extensions
+182. LIST | Example — List&lt;T&gt; Extensions
+183. DATETIME | Example — DateTime Helpers
+184. LINQ | Enumerable Style — Where Is an Extension
+185. LINQ | Where — Extension on IEnumerable&lt;T&gt;
+186. RESOLUTION | Extension Method Resolution
+187. PRIORITY | Priority — Instance Method Wins
+188. USING | Namespace &amp; using Directives
+189. INTERFACE | Extension Methods on Interfaces
+190. DI EXT | IServiceCollection — ASP.NET Core Pattern
+191. CHAIN | Chaining Extension Methods
+192. CHAIN | Fluent Registration Chain
+193. C# 14 | New Extension Members — .NET 10 / C# 14
+194. C# 14 | extension Block Syntax Overview
+195. SHADOW | Shadowing Warning — Declared Type, Not Runtime
+196. SHADOW | Extension on Animal vs Dog — Declared Type Wins
+197. CHECKPOINT | Quick Check — Extensions
+198. NOTES · TIPS · CARE | Extension Methods — Notes · Tips · Take Cares
+199. DO / DON&apos;T | Extension Methods — Do / Don&apos;t
+200. EXERCISE | Mini Exercise — Build Order Extensions
+201. STARTER | Exercise Starter — Order.cs
+202. SOLUTION | Exercise Review — OrderExtensions
+203. REVIEW | Exercise Review — Discussion
+204. SUMMARY | Summary
+205. TAKEAWAYS | Key Takeaways
+206. MISTAKES | Common Mistakes
+207. BEST PRACTICES | Best Practices
+208. DOCS | Official Documentation
+209. INTERVIEW | Interview Questions
+210. ASSIGNMENT | Final Assignment
+211. NEXT | Preview — Lecture 05
