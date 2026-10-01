@@ -64,7 +64,6 @@ public static class Lab
         [
             new("Public delegate risk (= null / fake Invoke)", Sections._10_Events.Ex01_PublicDelegateRisk.Run),
             new("event restricts raise; += / -= only", Sections._10_Events.Ex02_EventRestrictsDelegate.Run),
-            new("Not background — handlers run now", Sections._10_Events.Ex03_NotBackgroundWork.Run),
             new("EventHandler<TEventArgs> + EventArgs", Sections._10_Events.Ex04_EventHandlerAndEventArgs.Run),
             new("Observer interface vs event", Sections._10_Events.Ex05_ObserverVsEvent.Run),
             new("Chained OrderCreated → Payment → Email", Sections._10_Events.Ex06_ChainedOrderWorkflow.Run),
