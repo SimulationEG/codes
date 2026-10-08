@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "hWfpf0/Oh98=",
+  "success": true,
+  "projectFilePath": "d:\\simulation project\\tmp\\simulation-codes\\3- Advanced C#\\Lecture 3\\AdvancedCsharp.Lecture03\\AdvancedCsharp.Lecture03.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\abdel\\.nuget\\packages\\microsoft.netcore.app.ref\\9.0.20\\microsoft.netcore.app.ref.9.0.20.nupkg.sha512",
+    "C:\\Users\\abdel\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\9.0.20\\microsoft.windowsdesktop.app.ref.9.0.20.nupkg.sha512",
+    "C:\\Users\\abdel\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\9.0.20\\microsoft.aspnetcore.app.ref.9.0.20.nupkg.sha512",
+    "C:\\Users\\abdel\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\9.0.20\\microsoft.netcore.app.host.win-x64.9.0.20.nupkg.sha512"
+  ],
+  "logs": []
+}

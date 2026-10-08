@@ -1,0 +1,15 @@
+d:\simulation project\tmp\simulation-codes\3- Advanced C#\Lecture 3\AdvancedCsharp.Lecture03\bin\Debug\net9.0\AdvancedCsharp.Lecture03.exe
+d:\simulation project\tmp\simulation-codes\3- Advanced C#\Lecture 3\AdvancedCsharp.Lecture03\bin\Debug\net9.0\AdvancedCsharp.Lecture03.deps.json
+d:\simulation project\tmp\simulation-codes\3- Advanced C#\Lecture 3\AdvancedCsharp.Lecture03\bin\Debug\net9.0\AdvancedCsharp.Lecture03.runtimeconfig.json
+d:\simulation project\tmp\simulation-codes\3- Advanced C#\Lecture 3\AdvancedCsharp.Lecture03\bin\Debug\net9.0\AdvancedCsharp.Lecture03.dll
+d:\simulation project\tmp\simulation-codes\3- Advanced C#\Lecture 3\AdvancedCsharp.Lecture03\bin\Debug\net9.0\AdvancedCsharp.Lecture03.pdb
+d:\simulation project\tmp\simulation-codes\3- Advanced C#\Lecture 3\AdvancedCsharp.Lecture03\obj\Debug\net9.0\AdvancedCsharp.Lecture03.GeneratedMSBuildEditorConfig.editorconfig
+d:\simulation project\tmp\simulation-codes\3- Advanced C#\Lecture 3\AdvancedCsharp.Lecture03\obj\Debug\net9.0\AdvancedCsharp.Lecture03.AssemblyInfoInputs.cache
+d:\simulation project\tmp\simulation-codes\3- Advanced C#\Lecture 3\AdvancedCsharp.Lecture03\obj\Debug\net9.0\AdvancedCsharp.Lecture03.AssemblyInfo.cs
+d:\simulation project\tmp\simulation-codes\3- Advanced C#\Lecture 3\AdvancedCsharp.Lecture03\obj\Debug\net9.0\AdvancedCsharp.Lecture03.csproj.CoreCompileInputs.cache
+d:\simulation project\tmp\simulation-codes\3- Advanced C#\Lecture 3\AdvancedCsharp.Lecture03\obj\Debug\net9.0\AdvancedCsharp.Lecture03.sourcelink.json
+d:\simulation project\tmp\simulation-codes\3- Advanced C#\Lecture 3\AdvancedCsharp.Lecture03\obj\Debug\net9.0\AdvancedCsharp.Lecture03.dll
+d:\simulation project\tmp\simulation-codes\3- Advanced C#\Lecture 3\AdvancedCsharp.Lecture03\obj\Debug\net9.0\refint\AdvancedCsharp.Lecture03.dll
+d:\simulation project\tmp\simulation-codes\3- Advanced C#\Lecture 3\AdvancedCsharp.Lecture03\obj\Debug\net9.0\AdvancedCsharp.Lecture03.pdb
+d:\simulation project\tmp\simulation-codes\3- Advanced C#\Lecture 3\AdvancedCsharp.Lecture03\obj\Debug\net9.0\AdvancedCsharp.Lecture03.genruntimeconfig.cache
+d:\simulation project\tmp\simulation-codes\3- Advanced C#\Lecture 3\AdvancedCsharp.Lecture03\obj\Debug\net9.0\ref\AdvancedCsharp.Lecture03.dll

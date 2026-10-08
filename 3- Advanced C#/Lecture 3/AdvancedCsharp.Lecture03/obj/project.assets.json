@@ -1,0 +1,166 @@
+{
+  "version": 4,
+  "targets": {
+    "net9.0": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    "net9.0": []
+  },
+  "packageFolders": {
+    "C:\\Users\\abdel\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "d:\\simulation project\\tmp\\simulation-codes\\3- Advanced C#\\Lecture 3\\AdvancedCsharp.Lecture03\\AdvancedCsharp.Lecture03.csproj",
+      "projectName": "AdvancedCsharp.Lecture03",
+      "projectPath": "d:\\simulation project\\tmp\\simulation-codes\\3- Advanced C#\\Lecture 3\\AdvancedCsharp.Lecture03\\AdvancedCsharp.Lecture03.csproj",
+      "packagesPath": "C:\\Users\\abdel\\.nuget\\packages\\",
+      "outputPath": "d:\\simulation project\\tmp\\simulation-codes\\3- Advanced C#\\Lecture 3\\AdvancedCsharp.Lecture03\\obj\\",
+      "projectStyle": "PackageReference",
+      "centralPackageVersionsManagementEnabled": true,
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\abdel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net9.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net9.0": {
+          "framework": "net9.0",
+          "targetAlias": "net9.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "allWarningsAsErrors": true,
+        "noWarn": [
+          "NU1902"
+        ],
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct",
+        "suppressedAdvisories": {
+          "https://github.com/advisories/GHSA-pgww-w46g-26qg": null
+        }
+      },
+      "SdkAnalysisLevel": "10.0.400"
+    },
+    "frameworks": {
+      "net9.0": {
+        "framework": "net9.0",
+        "targetAlias": "net9.0",
+        "centralPackageVersions": {
+          "Ardalis.Result": "10.1.0",
+          "Ardalis.Specification": "9.3.1",
+          "Ardalis.Specification.EntityFrameworkCore": "9.3.1",
+          "AspNetCore.HealthChecks.Redis": "10.0.0",
+          "AspNetCoreRateLimit": "5.0.0",
+          "Azure.Communication.Email": "1.1.0",
+          "Azure.Identity": "1.17.1",
+          "Azure.Storage.Blobs": "12.22.2",
+          "ClosedXML": "0.104.2",
+          "dotenv.net": "4.0.0",
+          "EFCore.BulkExtensions": "10.0.1",
+          "FastEndpoints": "7.1.0",
+          "FastEndpoints.Swagger": "7.1.0",
+          "FirebaseAdmin": "3.2.0",
+          "FluentEmail.Core": "3.0.2",
+          "FluentEmail.Razor": "3.0.2",
+          "FluentEmail.Smtp": "3.0.2",
+          "FluentValidation": "12.0.0",
+          "FuzzySharp": "2.0.2",
+          "Google.Apis.Auth": "1.72.0",
+          "Hellang.Middleware.ProblemDetails": "6.5.1",
+          "HtmlAgilityPack": "1.12.1",
+          "HtmlSanitizer": "9.0.892",
+          "libphonenumber-csharp": "9.0.33",
+          "Microsoft.AspNetCore.Authentication.JwtBearer": "10.0.11",
+          "Microsoft.AspNetCore.DataProtection.EntityFrameworkCore": "10.0.11",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "10.0.11",
+          "Microsoft.AspNetCore.Mvc.Testing": "10.0.11",
+          "Microsoft.EntityFrameworkCore": "10.0.11",
+          "Microsoft.EntityFrameworkCore.Design": "10.0.11",
+          "Microsoft.EntityFrameworkCore.InMemory": "10.0.11",
+          "Microsoft.EntityFrameworkCore.SqlServer": "10.0.11",
+          "Microsoft.EntityFrameworkCore.Tools": "10.0.11",
+          "Microsoft.Extensions.Caching.StackExchangeRedis": "10.0.11",
+          "Microsoft.Extensions.Configuration.EnvironmentVariables": "10.0.11",
+          "Microsoft.Extensions.Configuration.Json": "10.0.11",
+          "Microsoft.Extensions.Diagnostics.HealthChecks": "10.0.11",
+          "Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore": "10.0.11",
+          "Microsoft.Extensions.Logging.Abstractions": "10.0.11",
+          "Microsoft.NET.Test.Sdk": "17.14.1",
+          "QRCoder": "1.6.0",
+          "Quartz.Extensions.Hosting": "3.15.1",
+          "QuestPDF": "2024.12.3",
+          "Refit": "8.0.0",
+          "Refit.HttpClientFactory": "8.0.0",
+          "Respawn": "7.0.0",
+          "Serilog": "4.3.0",
+          "Serilog.AspNetCore": "9.0.0",
+          "Serilog.Extensions.Hosting": "9.0.0",
+          "Serilog.Sinks.Console": "6.0.0",
+          "Serilog.Sinks.File": "6.0.0",
+          "Shouldly": "4.3.0",
+          "Stripe.net": "50.3.0",
+          "Testcontainers.MsSql": "4.14.0",
+          "UglyToad.PdfPig": "1.7.0-custom-5",
+          "xunit.runner.visualstudio": "3.1.3",
+          "xunit.v3": "3.0.0"
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[9.0.20, 9.0.20]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[9.0.20, 9.0.20]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[9.0.20, 9.0.20]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[9.0.20, 9.0.20]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.401/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
