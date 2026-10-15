@@ -89,9 +89,9 @@ public static class Lab
             new("JsonSerializerOptions + JsonPropertyName", Sections._07_Json.Ex03_OptionsAndNames.Run),
         ]),
 
-        new("Final project · generic JsonFileStore<T>",
+        new("Final project · generic JsonStore<T>",
         [
-            new("Employee menu on JsonFileStore<Employee>", Sections._08_FinalProject.Ex01_EmployeeMenu.Run),
+            new("Employee menu on JsonStore<Employee> (async + streams)", Sections._08_FinalProject.Ex01_EmployeeMenu.RunAsync),
         ]),
 
         new("Unit testing (xUnit examples from PPT)",

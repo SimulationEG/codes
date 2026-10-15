@@ -50,7 +50,7 @@ SwiftBite labs (later deck slides) stay in https://github.com/SimulationEG/Swift
 | 05 | Files & paths |
 | 06 | Streams |
 | 07 | JSON & serialization |
-| 08 | Final project · generic `JsonFileStore<T>` |
+| 08 | Final project · generic `JsonStore<T>` (async + FileStream) |
 | 09 | Unit testing (map + filtered `dotnet test`) |
 
 ## Slides
