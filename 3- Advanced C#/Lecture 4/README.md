@@ -25,7 +25,7 @@ Pick a **section**, then an **example** (same flow as Lecture 01–03).
 | 05 | Files & paths |
 | 06 | Streams |
 | 07 | JSON & serialization |
-| 08 | Final project · Employee JSON store |
+| 08 | Final project · generic `JsonFileStore<T>` (demo: employees) |
 
 ## Slides
 

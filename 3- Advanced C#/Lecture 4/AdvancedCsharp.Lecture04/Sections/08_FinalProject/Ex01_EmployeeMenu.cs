@@ -3,13 +3,19 @@ using AdvancedCsharp.Lecture04.Sections._08_FinalProject.Services;
 
 namespace AdvancedCsharp.Lecture04.Sections._08_FinalProject;
 
-/// <summary>Deck: PROGRAM — Employee Management menu loop.</summary>
+/// <summary>
+/// Final project demo: Employee Management on top of <see cref="JsonFileStore{T}"/>.
+/// The store is generic — same class could hold products, orders, etc.
+/// </summary>
 public static class Ex01_EmployeeMenu
 {
     public static void Run()
     {
         string filePath = Path.Combine(AppContext.BaseDirectory, "Data", "employees.json");
-        EmployeeService service = new(filePath);
+        JsonFileStore<Employee> store = new(filePath, keySelector: e => e.Id);
+
+        Console.WriteLine($"Store type: JsonFileStore<{nameof(Employee)}>");
+        Console.WriteLine($"File: {filePath}");
 
         while (true)
         {
@@ -23,28 +29,46 @@ public static class Ex01_EmployeeMenu
                 switch (choice)
                 {
                     case "1":
-                        service.Add(ReadEmployee());
+                        Employee toAdd = ReadEmployee();
+                        Validate(toAdd);
+                        store.Add(toAdd);
                         Console.WriteLine("Employee added.");
                         break;
                     case "2":
+                        int id = ReadInt("Id: ");
                         Console.WriteLine(
-                            service.GetById(ReadInt("Id: "))?.ToString() ?? "Not found.");
+                            store.Find(e => e.Id == id)?.ToString() ?? "Not found.");
                         break;
                     case "3":
-                        service.GetAll().ForEach(e => Console.WriteLine(e));
+                        store.GetAll().ForEach(e => Console.WriteLine(e));
                         break;
                     case "4":
+                    {
+                        Employee updated = ReadEmployee();
+                        Validate(updated);
                         Console.WriteLine(
-                            service.Update(ReadEmployee()) ? "Employee updated." : "Not found.");
+                            store.Update(e => e.Id == updated.Id, updated)
+                                ? "Employee updated."
+                                : "Not found.");
                         break;
+                    }
                     case "5":
+                    {
+                        int deleteId = ReadInt("Id: ");
                         Console.WriteLine(
-                            service.Delete(ReadInt("Id: ")) ? "Employee deleted." : "Not found.");
+                            store.Delete(e => e.Id == deleteId)
+                                ? "Employee deleted."
+                                : "Not found.");
                         break;
+                    }
                     case "6":
-                        service.SearchByName(Read("Name contains: "))
+                    {
+                        string text = Read("Name contains: ");
+                        store.FindAll(e =>
+                                e.Name.Contains(text, StringComparison.OrdinalIgnoreCase))
                             .ForEach(e => Console.WriteLine(e));
                         break;
+                    }
                     default:
                         Console.WriteLine("Unknown option.");
                         break;
@@ -61,7 +85,7 @@ public static class Ex01_EmployeeMenu
     static void PrintMenu()
     {
         Console.WriteLine();
-        Console.WriteLine("===== Employee Management =====");
+        Console.WriteLine("===== Employee Management (JsonFileStore<Employee>) =====");
         Console.WriteLine("1. Add Employee");
         Console.WriteLine("2. Get Employee By ID");
         Console.WriteLine("3. Get All Employees");
@@ -70,6 +94,18 @@ public static class Ex01_EmployeeMenu
         Console.WriteLine("6. Search Employees");
         Console.WriteLine("0. Exit");
         Console.Write("Choose an option: ");
+    }
+
+    static void Validate(Employee employee)
+    {
+        if (employee.Id <= 0)
+            throw new ArgumentException("Id must be greater than zero.");
+        if (string.IsNullOrWhiteSpace(employee.Name))
+            throw new ArgumentException("Name is required.");
+        if (string.IsNullOrWhiteSpace(employee.Department))
+            throw new ArgumentException("Department is required.");
+        if (employee.Salary < 0)
+            throw new ArgumentException("Salary cannot be negative.");
     }
 
     static Employee ReadEmployee() => new()
