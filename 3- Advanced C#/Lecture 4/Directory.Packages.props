@@ -1,0 +1,7 @@
+<Project>
+  <!-- Nearest Directory.Packages.props wins over the parent e-learning repo.
+       Keep versions on PackageReference in the test .csproj for a self-contained lab. -->
+  <PropertyGroup>
+    <ManagePackageVersionsCentrally>false</ManagePackageVersionsCentrally>
+  </PropertyGroup>
+</Project>

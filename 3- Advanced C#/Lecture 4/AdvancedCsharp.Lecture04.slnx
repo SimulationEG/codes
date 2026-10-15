@@ -1,3 +1,5 @@
 <Solution>
   <Project Path="AdvancedCsharp.Lecture04/AdvancedCsharp.Lecture04.csproj" />
+  <Project Path="AdvancedCsharp.Lecture04.Core/AdvancedCsharp.Lecture04.Core.csproj" />
+  <Project Path="AdvancedCsharp.Lecture04.Tests/AdvancedCsharp.Lecture04.Tests.csproj" />
 </Solution>

@@ -93,6 +93,21 @@ public static class Lab
         [
             new("Employee menu on JsonFileStore<Employee>", Sections._08_FinalProject.Ex01_EmployeeMenu.Run),
         ]),
+
+        new("Unit testing (xUnit examples from PPT)",
+        [
+            new("Map: which folder teaches what", Sections._09_UnitTesting.Ex01_TestMap.Run),
+            new("AAA + Assert.Throws (BankAccount)", Sections._09_UnitTesting.Ex02_ArrangeActAssert.Run),
+            new("[Fact] / [Theory] InlineData (Email + Grade)", Sections._09_UnitTesting.Ex03_TheoryInlineData.Run),
+            new("MemberData + TheoryData (Price)", Sections._09_UnitTesting.Ex04_MemberData.Run),
+            new("Boundaries (TicketPricer ages)", Sections._09_UnitTesting.Ex05_Boundaries.Run),
+            new("Async + lifecycle (FileEmployeeRepo)", Sections._09_UnitTesting.Ex06_AsyncLifecycle.Run),
+            new("Testable code (Invoice + ShopHours)", Sections._09_UnitTesting.Ex07_TestableCode.Run),
+            new("Test doubles (Fake/Spy + NSubstitute)", Sections._09_UnitTesting.Ex08_TestDoubles.Run),
+            new("Shouldly + Bogus", Sections._09_UnitTesting.Ex09_Libraries.Run),
+            new("TDD loyalty kata", Sections._09_UnitTesting.Ex10_Tdd.Run),
+            new("Run ALL unit tests", Sections._09_UnitTesting.Ex11_RunAllTests.Run),
+        ]),
     ];
 
     public static void RunInteractive()

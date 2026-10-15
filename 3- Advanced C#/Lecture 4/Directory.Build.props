@@ -1,0 +1,8 @@
+<Project>
+  <!-- Opt out of the parent e-learning Directory.Packages.props (CPM).
+       Lecture labs keep PackageReference versions in the .csproj. -->
+  <PropertyGroup>
+    <ManagePackageVersionsCentrally>false</ManagePackageVersionsCentrally>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+  </PropertyGroup>
+</Project>
